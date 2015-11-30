@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
+
 # Create your models here.
 class post(models.Model):
     author = models.ForeignKey('auth.User')
